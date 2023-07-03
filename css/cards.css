@@ -65,7 +65,6 @@
 #review .card img {
     width: 140px;
     height: 140px;
-    margin: 3rem auto;
     border-radius: 50%;
 
     display: flex;
@@ -73,6 +72,10 @@
     justify-content: center;
 
     position: relative;
+}
+
+#review .card .img {
+    margin: 3rem auto;
 }
 
 #review .card .img::before {

@@ -84,10 +84,6 @@
     margin: inherit;
     border-radius: inherit;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
     padding: 1rem;
     animation: rotation 4s linear infinite;
 

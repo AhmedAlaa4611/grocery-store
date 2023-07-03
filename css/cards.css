@@ -75,6 +75,9 @@
 }
 
 #review .card img {
+    width: inherit;
+    height: inherit;
+    margin: inherit;
     border-radius: inherit;
 }
 

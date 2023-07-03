@@ -107,6 +107,7 @@ footer .down a:hover {
     }
     footer .top .top-common {
         width: 50%;
+        background-color: aqua;
         margin: 2rem auto 5rem;
     }
     footer .down {

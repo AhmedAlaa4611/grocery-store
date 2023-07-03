@@ -166,3 +166,9 @@
         margin-bottom: 2rem;
     }
 }
+
+@media(max-width: 610px) {
+    .cards .card {
+        margin: 0;
+    }
+}

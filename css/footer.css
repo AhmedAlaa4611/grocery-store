@@ -102,7 +102,6 @@ footer .down a:hover {
 
 @media(max-width: 830px) {
     footer .top {
-        width: 100%;
         display: inline-block;
     }
     footer .top .top-common {

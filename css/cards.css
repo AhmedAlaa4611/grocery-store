@@ -61,7 +61,8 @@
     font-size: 1.8rem;
 }
 
-#review .card .img {
+#review .card .img,
+#review .card img {
     width: 140px;
     height: 140px;
     margin: 3rem auto;
@@ -72,13 +73,6 @@
     justify-content: center;
 
     position: relative;
-}
-
-#review .card img {
-    width: inherit;
-    height: inherit;
-    margin: inherit;
-    border-radius: inherit;
 }
 
 #review .card .img::before {

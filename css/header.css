@@ -1,0 +1,232 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: var(--header-color);
+    padding: 2rem 0;
+
+    z-index: 1;
+    box-shadow: var(--box-shadow);
+}
+
+/* header-logo */
+.header .logo {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: var(--black);
+}
+
+.header .logo i {
+    color: var(--orange);
+    margin-right: 0.4rem;
+}
+
+/* header-navbar */
+.header .navbar a {
+    font-size: 1.7rem;
+    margin-right: 2rem;
+    color: var(--black);
+}
+
+.header .navbar a:hover {
+    color: var(--orange);
+}
+
+/* div-icons */
+.header .icons i {
+    font-size: 2rem;
+    margin-right: 0.5rem;
+    color: var(--black);
+    
+    background-color: var(--body-color);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.header .icons i:hover {
+    color: var(--body-color);
+    background-color: var(--orange);
+    cursor: pointer;
+}
+
+.header .icons #icon-bars {
+    display: none;
+}
+
+/* search-form  */
+.header .search-form {
+    position: absolute;
+    top: 115%;
+    right: -130%;    /* 1.3% */
+
+    display: flex;
+    align-items: center;
+    
+    width: 50rem;
+    background: var(--header-color);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+}
+
+.header .search-form input {
+    font-size: 1.6rem;
+    padding: 1rem;
+    width: 90%;
+}
+
+.header .search-form label {
+    font-size: 2rem;
+    padding-left: 1rem;
+    color: var(--black);
+}
+
+.header .search-form label:hover {
+    cursor: pointer;
+    color: var(--orange);
+}
+
+/* shopping-card */
+.header .shopping-card {
+    position: absolute;
+    top: 115%;
+    right: -130%;    /* 1.3% */
+
+    padding: 2rem 2rem 2rem 1rem;
+    font-size: 1.7rem;
+    color: var(--black);
+    
+    max-height: 442px;
+    overflow-y: auto;
+
+    background: var(--header-color);
+    border-radius: 3px;
+    box-shadow: var(--box-shadow);
+}
+
+.header .shopping-card img {
+    width: 35%;
+    height: 35%;
+}
+
+.header .shopping-card section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .shopping-card i {
+    color: var(--light-color);
+}
+
+.header .shopping-card i:hover {
+    cursor: pointer;
+    color: var(--orange);
+}
+
+/* login-form */
+.header .login-form {
+    position: absolute;
+    top: 115%;
+    right: -130%;    /* 1.3% */
+
+    font-size: 1.7rem;
+    line-height: 4rem;
+    padding: 1.5rem 2rem;
+    color: var(--black);
+
+    background: var(--header-color);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+}
+
+.header .login-form input {
+    width: 30rem;
+    display: block;
+    border: 1px solid var(--orange);
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 2rem;
+    font-size: 1.7rem;
+}
+
+.header .login-form .creating-account p {
+    text-align: center;
+}
+
+.header .login-form .creating-account p span {
+    color: var(--orange);
+}
+
+.header .login-form .creating-account p span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* regester-form */
+.header .regester-form {
+    position: absolute;
+    top: 115%;
+    right: -130%;    /* 1.3% */
+
+    font-size: 1.7rem;
+    padding: 1.5rem 2rem;
+    color: var(--black);
+
+    background: var(--header-color);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+}
+
+.header .regester-form div {
+    margin: 1rem 1rem 2rem 1rem;
+}
+
+.header .regester-form div input {
+    width: 30rem;
+    display: block;
+    border: 1px solid var(--orange);
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 0.4rem;
+    font-size: 1.7rem;
+}
+
+/* media */
+@media(max-width: 610px) {
+    html {
+        font-size: 50%;
+    }
+
+    header .icons #icon-bars {
+        display: inline-block !important;
+    }
+
+    .header .navbar {
+        position: absolute;
+        top: 115%;
+        right: -130%;    /* 1.3% */
+    
+        padding: 2rem;
+        line-height: 3.4rem;
+        width: 20rem;
+    
+        background: var(--header-color);
+        border-radius: 3px;
+        box-shadow: var(--box-shadow);
+    }
+
+    .header .navbar a {
+        display: block;
+        width: fit-content;
+        font-size: 2rem !important;
+    }
+}

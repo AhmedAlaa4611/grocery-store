@@ -1,0 +1,52 @@
+.home {
+    width: 100%;
+    height: 50vh;
+    margin-top: 8rem;
+    color: var(--black);
+    line-height: 3.4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("../img/banner-bg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content {
+    width: 40%;
+    text-align: center;
+}
+
+.home .content h1 {
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.home .content p {
+    font-size: 1.8rem;
+    margin: 1rem;
+    color: var(--light-color);
+}
+
+.home .content button {
+    background-color: transparent;
+}
+
+.home .content button:hover {
+    background-color: var(--orange);
+}
+
+@media(max-width: 830px) {
+    .home .content {
+        width: 60%;
+    }
+}
+
+@media(max-width: 610px) {
+    .home .content {
+        width: 73%;
+    }
+}

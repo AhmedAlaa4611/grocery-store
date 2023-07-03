@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en" oncontextmenu="return false">
+    <head>
+        <title>Grocery Website</title>
+
+        <!-- meta -->
+        <meta charset="UTF-8">
+        <meta name="description" content="Practical Project: Complete Responsive Grocery Website">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- custom css -->
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/header.css" rel="stylesheet">
+        <link href="css/home.css" rel="stylesheet">
+        <link href="css/cards.css" rel="stylesheet">
+        <link href="css/footer.css" rel="stylesheet">
+
+        <!-- font awesome -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <!-- logo -->
+            <a href="" class="logo"><i class="fa-solid fa-basket-shopping"></i>grocery</a>
+            
+            <!-- nav -->
+            <nav class="navbar">
+                <a href="#home">home</a>
+                <a href="#features">features</a>
+                <a href="#products">products</a>
+                <a href="#categories">categories</a>
+                <a href="#review">review</a>
+                <a href="#blogs">blogs</a>
+            </nav>
+
+            <!-- right-icons -->
+            <div class="icons">
+                <i class="fa fa-bars" id="icon-bars"></i>
+                <i class="fa fa-search" id="icon-search"></i>
+                <i class="fa fa-cart-shopping" id="icon-shopping"></i>
+                <i class="fa fa-user" id="icon-user"></i>
+            </div>
+
+            <!-- search-form -->
+            <form class="search-form">
+                <input type="search" id="search-box" placeholder="search for product">
+                <label for="search-box" class="fa fa-search"></label>
+            </form>
+
+            <!-- shopping-card -->
+            <div class="shopping-card">
+                <!-- section-one -->
+                <section>
+                    <img src="img/cart-img-1.png">
+                    <div class="content">
+                        <h3>watermelon</h3>
+                        <p>price &#187; $4.99</p>
+                        <p>quantity &#187; 1</p>
+                    </div>
+                    <i class="fa-solid fa-trash"></i>
+                </section>
+
+                <!-- section-two -->
+                <section>
+                    <img src="img/cart-img-2.png">
+                    <div class="content">
+                        <h3>onion</h3>
+                        <p>price &#187; $4.99</p>
+                        <p>quantity &#187; 1</p>
+                    </div>
+                    <i class="fa-solid fa-trash"></i>
+                </section>
+
+                <!-- section-three -->
+                <section>
+                    <img src="img/cart-img-3.png">
+                    <div class="content">
+                        <h3>chicken</h3>
+                        <p>price &#187; $4.99</p>
+                        <p>quantity &#187; 1</p>
+                    </div>
+                    <i class="fa-solid fa-trash"></i>
+                </section>
+
+                <!-- total -->
+                <div class="center my-1">
+                    <h2>total: $14.97</h2>
+                </div>
+
+                <!-- checkout-button -->
+                <div class="center">
+                    <button>checkout</button>
+                </div>
+            </div>
+
+            <!-- login-form -->
+            <form class="login-form">
+                <h2>lonin now</h2>
+
+                <input type="text" placeholder="your email">
+                <input type="password" placeholder="your password">
+
+                <div class="creating-account">
+                    <p>do not have an account <span>create one</span></p>
+                </div>
+
+                <!-- submit-button -->
+                <div class="center">
+                    <button>submit</button>
+                </div>
+            </form>
+
+            <!-- regester-form -->
+            <form class="regester-form">
+                <h2>regester now</h2>
+
+                <!-- userFirstName -->
+                <div>
+                    <label for="userFirstName">your first name</label>
+                    <input type="text" id="userFirstName" placeholder="your first name">
+                </div>
+
+                <!-- userSecondName -->
+                <div>
+                    <label for="userSecondName">your second name</label>
+                    <input type="text" id="userSecondName" placeholder="your second name">
+                </div>
+
+                <!-- userEmail -->
+                <div>
+                    <label for="userEmail">your email</label>
+                    <input type="email" id="userEmail" placeholder="your email">
+                </div>
+
+                <!-- userPassword -->
+                <div>
+                    <label for="userPassword">your password</label>
+                    <input type="email" id="userPassword" placeholder="your password">
+                </div>
+
+                <!-- userConfirmPassword -->
+                <div>
+                    <label for="userConfirmPassword">your confirm password</label>
+                    <input type="email" id="userConfirmPassword" placeholder="your confirm password">
+                </div>
+
+                <!-- submit-button -->
+                <div class="center">
+                    <button>submit</button>
+                </div>
+            </form>
+        </header>
+
+        <!-- home -->
+        <section class="home" id="home">
+            <div class="content">
+                <h1>Fresh And <span class="orange">Organic</span> Products For Your</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus beatae reiciendis quae odit laborum? quos</p>
+                <button>shop now</button>
+            </div>
+        </section>
+
+        <!-- features -->
+        <div class="title">
+            <h1>our <span>features</span></h1>
+        </div>
+        <section class="cards" id="features">
+            <!-- div -->
+            <div class="card">
+                <img src="img/feature-img-1.png">
+                <h2>fresh and organic</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus amet ratione libero assumenda</p>
+                <button>read more</button>
+            </div>
+
+            <!-- div -->
+            <div class="card">
+                <img src="img/feature-img-2.png">
+                <h2>fast delivery</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus amet ratione libero assumenda</p>
+                <button>read more</button>
+            </div>
+
+            <!-- div -->
+            <div class="card">
+                <img src="img/feature-img-3.png">
+                <h2>easy payments</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus amet ratione libero assumenda</p>
+                <button>read more</button>
+            </div>
+        </section>
+
+        <!-- products -->
+        <div class="title">
+            <h1>our <span>products</span></h1>
+        </div>
+        <section class="cards" id="products">
+            <!-- div -->
+            <div class="card">
+                <img src="img/product-1.png">
+                <h2>fresh orange</h2>
+                <p>price: $4.99</p>
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+                <button>add to cart</button>
+            </div>
+
+            <!-- div
+            <div class="card">
+                <img src="img/product-2.png">
+                <h2>fresh onion</h2>
+                <p>price: $4.99</p>
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+                <button>add to cart</button>
+            </div>
+
+            !-- div --
+            <div class="card">
+                <img src="img/product-3.png">
+                <h2>fresh meat</h2>
+                <p>price: $4.99</p>
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+                <button>add to cart</button>
+            </div> -->
+
+            <!-- div -->
+            <div class="card">
+                <img src="img/product-4.png">
+                <h2>fresh cabbage</h2>
+                <p>price: $4.99</p>
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+                <button>add to cart</button>
+            </div>
+
+            <!-- div -->
+            <div class="card">
+                <img src="img/product-5.png">
+                <h2>fresh potato</h2>
+                <p>price: $4.99</p>
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+                <button>add to cart</button>
+            </div>
+
+            <!-- div -->
+            <div class="card">
+                <img src="img/product-6.png">
+                <h2>fresh avocado</h2>
+                <p>price: $4.99</p>
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+                <button>add to cart</button>
+            </div>
+
+            <!-- div -->
+            <div class="card">
+                <img src="img/product-7.png">
+                <h2>fresh carrot</h2>
+                <p>price: $4.99</p>
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+                <button>add to cart</button>
+            </div>
+
+            <!-- div -->
+            <div class="card">
+                <img src="img/product-8.png">
+                <h2>fresh lemon</h2>
+                <p>price: $4.99</p>
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+                <button>add to cart</button>
+            </div>
+        </section>
+
+        <!-- categories -->
+        <div class="title">
+            <h1>our <span>categories</span></h1>
+        </div>
+        <section class="cards" id="categories">
+            <!-- div -->
+            <div class="card">
+                <img src="img/cat-1.png">
+                <h2>vegitables</h2>
+                <p>upto 45% Off</p>
+                <button>shop now</button>
+            </div>
+
+            <!-- div -->
+            <div class="card">
+                <img src="img/cat-2.png">
+                <h2>fresh fruits</h2>
+                <p>upto 45% Off</p>
+                <button>shop now</button>
+            </div>
+            
+            <!-- div -->
+            <div class="card">
+                <img src="img/cat-3.png">
+                <h2>dairy products</h2>
+                <p>upto 45% Off</p>
+                <button>shop now</button>
+            </div>
+            
+            <!-- div -->
+            <div class="card">
+                <img src="img/cat-4.png">
+                <h2>fresh meat</h2>
+                <p>upto 45% Off</p>
+                <button>shop now</button>
+            </div>
+        </section>
+
+        <!-- customer's-review -->
+        <div class="title">
+            <h1>customer's <span>review</span></h1>
+        </div>
+        <section class="cards" id="review">
+            <!-- div -->
+            <div class="card">
+                <div class="img">
+                    <img src="img/pic-1.png">
+                </div>
+                <h2>john deo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, distinctio voluptatibus.</p>
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+            </div>
+
+            <!-- div -->
+            <div class="card">
+                <div class="img">
+                    <img src="img/pic-2.png">
+                </div>
+                <h2>john deo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, distinctio voluptatibus.</p>
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+            </div>
+            
+            <!-- div -->
+            <div class="card">
+                <div class="img">
+                    <img src="img/pic-3.png">
+                </div>
+                <h2>john deo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, distinctio voluptatibus.</p>
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- blogs -->
+        <div class="title">
+            <h1>our <span>blogs</span></h1>
+        </div>
+        <section class="cards" id="blogs">
+            <!-- div -->
+            <div class="card">
+                <img src="img/blog-1.jpg">
+
+                <!-- under-img-icons -->
+                <div class="under-img-icons">
+                    <div>
+                        <i class="fa fa-user"></i>
+                        <span>by user</span>
+                    </div>
+                    <div>
+                        <i class="fa fa-calendar"></i>
+                        <span>1st may, 2021</span>
+                    </div>
+                </div>
+                
+                <!-- under-img -->
+                <div class="under-img">
+                    <h2>fresh and organic vegitables and fruits</h2>
+                    <p>lorem ipsum dolor sit amet consectetur adipisicing elit. veniam, expedita.</p>
+                    <button>read more</button>
+                </div>
+            </div>
+
+            <!-- div -->
+            <div class="card">
+                <img src="img/blog-2.jpg">
+
+                <!-- under-img-icons -->
+                <div class="under-img-icons">
+                    <div>
+                        <i class="fa fa-user"></i>
+                        <span>by user</span>
+                    </div>
+                    <div>
+                        <i class="fa fa-calendar"></i>
+                        <span>1st may, 2021</span>
+                    </div>
+                </div>
+                
+                <!-- under-img -->
+                <div class="under-img">
+                    <h2>fresh and organic vegitables and fruits</h2>
+                    <p>lorem ipsum dolor sit amet consectetur adipisicing elit. veniam, expedita.</p>
+                    <button>read more</button>
+                </div>
+            </div>
+            
+            <!-- div -->
+            <div class="card">
+                <img src="img/blog-3.jpg">
+
+                <!-- under-img-icons -->
+                <div class="under-img-icons">
+                    <div>
+                        <i class="fa fa-user"></i>
+                        <span>by user</span>
+                    </div>
+                    <div>
+                        <i class="fa fa-calendar"></i>
+                        <span>1st may, 2021</span>
+                    </div>
+                </div>
+                
+                <!-- under-img -->
+                <div class="under-img">
+                    <h2>fresh and organic vegitables and fruits</h2>
+                    <p>lorem ipsum dolor sit amet consectetur adipisicing elit. veniam, expedita.</p>
+                    <button>read more</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <!-- top -->
+            <div class="top">
+                <!-- div-one -->
+                <div class="div-one top-common">
+                    <h2><i class="fa-solid fa-basket-shopping"></i> Grocery</h2>
+                    <p>Lorem Ipsum Dolor, Sit Amet Consectetur Adipisicing Elit. Aliquam, Saepe.</p>
+                    <div class="icons">
+                        <a href="https://www.facebook.com/people/Ahmed-Alaa/100006294038895/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://github.com/AhmedAlaa4611" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://youtu.be/rQQAT63G-VI" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://codeforces.com/profile/AhmedAlaa4611" target="_blank"><i class="fa fa-code"></i></a>
+                    </div>
+                </div>
+
+                <!-- div-two -->
+                <div class="div-two top-common">
+                    <h2><i class="fa fa-circle-info"></i> contact info</h2>
+                    <div class="links">
+                        <i class="fa-solid fa-phone"><a>01288381629</a></i>
+                        <i class="fa-brands fa-whatsapp"><a>01288381629</a></i>
+                        <i class="fa-brands fa-facebook"><a href="https://www.facebook.com/people/Ahmed-Alaa/100006294038895/" target="_blank">ahmed.alaa4610@yahoo.com</a></i>
+                        <i class="fa-solid fa-envelope"><a href="mailto:ahmed.alaa4611@gmail.com" target="_blank">ahmed.alaa4611@gmail.com</a></i>
+                        <i class="fa-solid fa-location-dot"><a href="#">grocery's location</a></i>
+                    </div>
+                </div>
+
+                <!-- div-three -->
+                <div class="div-three top-common">
+                    <h2><i class="fa fa-link"></i> quick links</h2>
+                    <div class="links">
+                        <i class="fa-solid fa-arrow-right"><a href="#home">home</a></i>
+                        <i class="fa-solid fa-arrow-right"><a href="#features">features</a></i>
+                        <i class="fa-solid fa-arrow-right"><a href="#products">products</a></i>
+                        <i class="fa-solid fa-arrow-right"><a href="#categories">categories</a></i>
+                        <i class="fa-solid fa-arrow-right"><a href="#review">review</a></i>
+                        <i class="fa-solid fa-arrow-right"><a href="#blogs">blogs</a></i>
+                    </div>
+                </div>
+
+                <!-- div-four -->
+                <div class="div-four top-common">
+                    <h2><i class="fa-solid fa-right-to-bracket"></i> newsletter</h2>
+                    <p>login for latest updates</p>
+                    <button class="my-2" id="login-now">login now</button>
+                    <div class="icons">
+                        <a href=""><i class="fa-brands fa-cc-paypal"></i></a>
+                        <a href=""><i class="fa-brands fa-cc-visa"></i></a>
+                        <a href=""><i class="fa-brands fa-cc-discover"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- down -->
+            <div class="down">
+                <p>&#169; created by <span class="orange">ahmed alaa</span> and all my thanks for <span class="orange">Mr. Web Designer</span> youtube channel <a href="https://www.youtube.com/watch?v=lCCN_lkl3Xw&t=1464s" target="_blank">here</a></p>
+            </div>
+        </footer>
+
+        <!-- scripts -->
+        <script src="script.js"></script>
+    </body>
+</html>

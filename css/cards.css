@@ -170,5 +170,6 @@
 @media(max-width: 610px) {
     .cards .card {
         margin: 0;
+        margin-bottom: 2rem;
     }
 }

@@ -13,6 +13,8 @@
 
     z-index: 1;
     box-shadow: var(--box-shadow);
+
+    caret-color: var(--orange);
 }
 
 /* header-logo */

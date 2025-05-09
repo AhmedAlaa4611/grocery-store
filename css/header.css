@@ -203,7 +203,7 @@
 }
 
 /* media */
-@media(max-width: 610px) {
+@media(max-width: 768px) {
     html {
         font-size: 50%;
     }

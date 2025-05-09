@@ -96,10 +96,10 @@
 }
 
 @keyframes rotation {
-    0%{
+    from {
         transform: rotate(0deg);
     }
-    100%{
+    to {
         transform: rotate(-360deg);
     }
 }
@@ -170,6 +170,7 @@
 @media(max-width: 610px) {
     .cards .card {
         margin: 0;
+        width: 300px;
         margin-bottom: 2rem;
     }
 }
